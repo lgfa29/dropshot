@@ -1,7 +1,7 @@
 DropShot
 ========
 
-DropShot is a simple application that makes sharing screenshots easy. Simply assign a keyboard shortcut to the DropShot service and once it is triggered you will be able to select the screen area you want to share. From there, DropShot will automatically save the image file in your Dropbox folder and set a sharing link to your clipboard so you can share it easily with `Cmd+v`.
+DropShot is a simple application that makes sharing screenshots easy. Simply assign a keyboard shortcut to the DropShot service and once it is triggered you will be able to select the screen area you want to share. From there, DropShot will automatically save the image file in your Dropbox folder and set a sharing link to your clipboard so you can just `Cmd+v` it anywhere.
 
 How to install
 --------------
@@ -16,7 +16,12 @@ After that you just need to setup a keyboard shortcut to activate DropShot. You 
 And that's it. Every time you trigger DropShot with the key combination you chose you will be able to select an area of screen to share. The sharing URL wil be on your clipboard, one `Cmd+v` away.
 
 Next steps
--------------------
+----------
 * Stop using the deprecated Dropbox Public folder
 * Use Dropbx API to generate the sharing URL
 * Develop Windows version
+
+Requirements
+------------
+* Python 2.6 or above
+* Mac OS X
