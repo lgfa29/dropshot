@@ -19,6 +19,8 @@ Next steps
 ----------
 * Stop using the deprecated Dropbox Public folder
 * Use Dropbx API to generate the sharing URL
+* Create keyboard shortcut automatically
+* Create GUI installer
 * Develop Windows version
 
 Requirements
