@@ -12,8 +12,7 @@ CONFIG_FILE = os.path.join(os.environ['HOME'], 'Scripts/', '.config')
 
 if __name__ == '__main__':
 
-	if not os.path.isfile(CONFIG_FILE):
-		raise Exception("No configuration file found. Run 'python install.py' first.")
+	assert os.path.isfile(CONFIG_FILE), "No configuration file found. Run 'python install.py' first."
 
 	try:
 		user_id, dropbox_path = open(CONFIG_FILE).read().split()

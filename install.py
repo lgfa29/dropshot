@@ -11,11 +11,8 @@ SCRIPTS_DIR_PATH = os.path.join(os.environ['HOME'], "Scripts/")
 
 
 if __name__ == "__main__":
-	if not os.path.isdir(SERVICE_PATH):
-		raise Exception("DropShot service not found.")
-
-	if not os.path.isfile(SCRIPT_PATH):
-		raise Exception("dropshot.py script not foud")
+	assert os.path.isdir(SERVICE_PATH), "DropShot service not found."
+	assert os.path.isfile(SCRIPT_PATH), "dropshot.py script not foud"
 
 	if not os.path.isdir(SCRIPTS_DIR_PATH):
 		print "\tCreating Scripts folder..."
