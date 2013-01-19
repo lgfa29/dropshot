@@ -39,4 +39,4 @@ if __name__ == "__main__":
 
 	print "\tCopying DropShot script..."
 	os.system('cp {} {}'.format(SCRIPT_PATH, SCRIPTS_DIR_PATH))
-	os.system('cp {} {}'.format(CONFIG_PATH, SCRIPTS_DIR_PATH))
+	os.system('mv {} {}'.format(CONFIG_PATH, SCRIPTS_DIR_PATH))
