@@ -9,7 +9,7 @@ How to install
 Download the `zip` file from the `Tags` menu, extract it and run
 > python install.py
 
-The installer will ask for your Dropbox user number (which can be found when you share a file, for instance `https://dl.dropbox.com/u/7831941/foto.jpg`) and the path to your Public folder (defaults to ~/DropBox/Public).
+The installer will ask for your Dropbox user number (which can be found when you share a file, for instance `https://dl.dropbox.com/u/7831941/foto.jpg`) and the path to your Public folder (defaults to `~/DropBox/Public`).
 
 After that you just need to setup a keyboard shortcut to activate DropShot. You can do this on `System Preferences -> Keyboard -> Keyboard Shortcuts -> Services`, scrolling down all the way to find the DropShot service. Click on `add shortcut` and press the key combination you want.
 
