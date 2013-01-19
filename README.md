@@ -6,7 +6,7 @@ DropShot is a simple application that makes sharing screenshots easy. Simply ass
 How to install
 --------------
 
-Extract the zip file and run
+Download the `zip` file from the `Tags` menu, extract it and run
 > python install.py
 
 The installer will ask for your Dropbox user number (which can be found when you share a file, for instance `https://dl.dropbox.com/u/7831941/foto.jpg`) and the path to your Public folder (defaults to ~/DropBox/Public).
